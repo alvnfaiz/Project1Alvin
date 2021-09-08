@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesanan"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/text"
+        />
+
+    <TextView
+        android:id="@+id/txtNamaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Barang"
+        android:layout_below="@+id/title"
+        android:textColor="@color/text"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/editNamaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNamaBarang"
+        android:layout_marginHorizontal="10dp"
+        android:outlineSpotShadowColor="@color/blue_text"
+        />
+    <TextView
+        android:id="@+id/txtJumlahBeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Beli"
+        android:layout_below="@+id/editNamaBarang"
+        android:textColor="@color/text"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/editJumlahBeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtJumlahBeli"
+        android:layout_marginHorizontal="10dp"
+        android:outlineSpotShadowColor="@color/blue_text"
+        />
+    <TextView
+        android:id="@+id/txtHargaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga Barang"
+        android:layout_below="@+id/editJumlahBeli"
+        android:textColor="@color/text"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/editHargaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtHargaBarang"
+        android:layout_marginHorizontal="10dp"
+        android:outlineSpotShadowColor="@color/blue_text"
+        />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/editHargaBarang"
+        android:layout_marginHorizontal="10dp"
+        android:backgroundTint="@color/blue_text"
+        />
+
+    <TextView
+        android:id="@+id/txtOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSubmit"
+        android:textSize="20dp"
+        android:textColor="@color/text"
+        />
+</RelativeLayout>

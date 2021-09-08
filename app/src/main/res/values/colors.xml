@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_text">#0883A1</color>
+    <color name="blue_button">#0A729A</color>
+    <color name="text">#474747</color>
+    <color name="text_button">#C1C1C1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="purple_200">#000000</color>
+    <color name="purple_700">#000000</color>
+    <color name="teal_200">#000000</color>
+</resources>
